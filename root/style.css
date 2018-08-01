@@ -1,0 +1,247 @@
+/* Links and buttons */
+
+a:visited, a:link {
+  font-family: sans-serif;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+
+.button {
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #617ba5;
+  font-size: 15px;
+}
+
+.nav-link
+{
+  padding:20px;
+}
+/*-----------------------------------------------------------------------------*/
+/*ROOMS*/
+
+.row {
+  margin: 10px;
+}
+.row > div {
+  padding: 5px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.room {
+  font-family: sans-serif;
+  color: white;
+  background-color: #42659e;
+  opacity: 0.6;
+  padding: 7px;
+  text-align: center;
+}
+
+div .people {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 20px
+}
+div .roomno {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding:10px;
+}
+
+.date {
+
+  color: grey;
+  padding: 5px;
+  vertical-align: bottom;
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* #what {
+  padding: 50px;
+  text-align: center;
+} */
+
+#welcome-text {
+  font-size: 100px;
+}
+
+}
+.floor{
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  color:  lightgray;
+  padding-top: 10px;
+
+
+}
+/*-----------------------------------------------------------------------------*/
+/*UPCOMING*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+
+}
+.container > div {
+  background-color: lightblue;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+
+}
+
+/* If the screen size is 601px or more, set the font-size 20px */
+
+  @media only screen and (min-width: 601px) {
+  .date,.name {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size to 15px */
+@media only screen and (max-width: 600px) {
+ .date,.name {
+    font-size: 15px;
+  }
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*CONTACT*/
+.table {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+h1
+{
+  text-align: center;
+  font-weight:bold;
+  font-family: arial; 
+  font-size: w
+
+}
+p{
+  text-align: center;
+}
+/*-----------------------------------------------------------------------------*/
+
+/* HOLWORTHY*/
+
+body {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.bg {
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+}
+#welcomemessage {
+  font-family: verdana;
+  /* font-weight: bold; */
+  color: black;
+  padding: 10px;
+  font-size: 80px;
+  text-align: center;
+  opacity: 0.6;
+  background: white;
+
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+.posts{
+  text-align: center;
+  background: #efaf6b;
+  border: 2px solid black;
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  /* height: 20%; */
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: black;
+  opacity: 0.8;
+
+}
+
+
+#date
+
+{
+  padding:10px;
+  font-size: 30px;
+  color: gray;
+
+  /* background: #ffda96 */
+}
+
+img{
+  float: left;
+  margin: 10px
+}
+/*-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 601px) {
+a:link{
+  font-size: 20px;
+}
+}
+
+/* If the screen size is 600px or less, set the font-size to 15px */
+@media only screen and (max-width: 600px) {
+a:link{
+  font-size: 15px;
+}
+}
+
+
+
+/* If the screen size is 600px or less, set the font-size to 15px */
+@media only screen and (max-width: 1000px) {
+img{
+  width: 100%;
+}
+}
